@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta url="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-system</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <div class="home d-flex align-items-center justify-content-center text-white">
+        <div class="child p-5">
+        <div class="text-center"><h2>SignUp System</h2></div>    
+        <div class="my-4">
+            <i class="fa-solid fa-user"></i>
+            <input class="form-control" type="text" id="userName" placeholder="enter user Name">
+            <p id="valid" class="d-none text-danger">please enter the correct name</p>
+        </div>
+        <div class="my-4">
+            <i class="fa-solid fa-envelope"></i>
+            <input class="form-control" type="email" id="Email" placeholder="enter your Email"> 
+            <p id="validemail" class="d-none text-danger">please enter the correct email</p>
+        </div>
+        <div class="my-4">
+            <i class="fa-solid fa-phone"></i>
+                <input class="form-control" type="number" id="Phone-Number" placeholder="enter Phone Number">
+                <p id="validnumber" class="d-none text-danger">please enter the correct number</p>
+        </div>
+        <div class="my-4">
+            <i class="fa-solid fa-key"></i>
+            <input class="form-control" type="password" id="password" placeholder="enter your password">
+            <p id="validpassword" class="d-none text-danger">please enter the correct password</p>
+        </div>
+        <div class="my-2">
+            <i class="fa-solid fa-image"></i>
+            <input type="file" accept="image/*">
+        </div>
+        <div class="text-center my-2">
+        <button onclick="signup()" class="btn btn-outline-light" id="btn">SignUp</button>
+        <h6 class="my-2">Already have an account?
+            <a href="./index1.html" class="text-danger-emphasis">Login here</a>
+        </h6>
+    </div>
+    </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

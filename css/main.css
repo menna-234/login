@@ -1,0 +1,25 @@
+.home{
+    background-image: url("../img/Remote\ Communication\ Mistakes\ to\ Avoid\ When\ Managing\ a\ Team.jpg");
+    height: 100vh;
+    background-position: center; 
+    background-size: cover;
+}
+.child{
+    position: relative;
+    /* height: 500px; */
+    width: 700px;
+    background: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width:580px){
+    .child{
+        height: 500px;
+        width: 300px;
+    }
+}
+h1{
+    font-family: "Pacifico", cursive;
+}
